@@ -1,0 +1,16 @@
+name: ci
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fail when ci-fail exists
+        run: |
+          if [ -e ci-fail ]; then
+            echo "ci-fail marker present: failing on purpose"
+            exit 1
+          fi
+          echo "ok"
