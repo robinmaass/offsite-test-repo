@@ -13,3 +13,4 @@ exists at the repository root. A branch that adds `ci-fail` therefore produces a
 failing check, which the tests use for the "checks failing" state.
 MCP tool test 16:34:27
 MCP tool test 2 16:40:46
+agent tool test
