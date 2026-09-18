@@ -6,6 +6,8 @@ Throwaway repository for Offsite's worktree **finish** end-to-end tests
 The test run creates branches, opens and closes pull requests, merges into `main`
 and resets `main` afterwards. Do not keep anything of value here.
 
+Current round: `add-a-line-to-readme` (2026-09-19).
+
 ## CI contract
 
 The workflow in `.github/workflows/ci.yml` passes unless a file named `ci-fail`
