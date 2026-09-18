@@ -1,4 +1,4 @@
-# offsite-test-repo (branch edited the title)
+# offsite-test-repo (branch edited the title, main edited the title again)
 
 Throwaway repository for Offsite's worktree **finish** end-to-end tests
 (`host/worktree_e2e_test.py` in the offsite repository).
