@@ -20,3 +20,7 @@ side by side round two
 ## Development
 
 Copy `.env.local.example` to `.env.local` (it is gitignored). Start the static preview with `python3 -m http.server 8000`; any port works.
+
+## Changelog
+
+- Base picker in the pull request form
