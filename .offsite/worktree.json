@@ -1,0 +1,19 @@
+{
+  "include": [
+    {
+      "path": ".env.local",
+      "link": true
+    }
+  ],
+  "setup": [
+    "[ -e .env.local ] || cp .env.local.example .env.local"
+  ],
+  "run": [
+    {
+      "name": "preview",
+      "steps": [
+        "python3 -m http.server $OFFSITE_PORT"
+      ]
+    }
+  ]
+}
