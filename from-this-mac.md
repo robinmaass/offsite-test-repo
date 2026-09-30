@@ -1,1 +1,1 @@
-Edited here, in my words.
+Edited on the other Mac.
